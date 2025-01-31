@@ -1,0 +1,63 @@
+baseURL = "https://blog.kike.wtf/"
+languageCode = "en-us"
+title = "Kike! WTF?"
+theme = "cactus"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Writings"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+[params]
+  description = "Welcome to my digital brain dump where I document my chaotic journey through the realms of hacking, devops, and whatever shiny tech catches my attention."
+  colortheme = "light" # dark, light, white, or classic
+  rss = true
+  mainSection = "posts"
+  showAllPostsArchive = false
+  showAllPostsOnHomePage = false
+  postsOnHomePage = 5
+  tagsOverview = false
+  showProjectsList = false
+  projectsUrl = ""
+  dateFormat = "2006-01-02"
+  show_updated = true
+  showReadTime = true
+
+  # the value of name should be an valid font awesome icon name (https://fontawesome.com/search?ic=brands)
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/cosasdepuma"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/kikefontan"
