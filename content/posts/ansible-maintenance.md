@@ -4,6 +4,8 @@ date: "2025-01-30"
 categories: ["ansible", "automation", "devops", "linux"]
 ---
 
+# The first of many lazy automations
+
 Hey there fellow sysadmins! 👋 I've been playing with Ansible to keep my Linux servers tidy and up-to-date. I thought that an interesting idea to start with could be to keep the package managers clean and up to date using Ansible.
 
 ## What are we building? 👷🏼
