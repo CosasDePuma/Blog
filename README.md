@@ -1,11 +1,11 @@
 <div align="center">
 
 # ✨ My Personal Blog ✨
-> 🌈 Welcome to the magical repository of my personal blog! 🚀
 
 [![Hugo](https://img.shields.io/badge/Hugo-FF4088?style=for-the-badge&logo=hugo&logoColor=white)](https://gohugo.io)
 [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://cosasdepuma.github.io/blog)
 
+🌈 Welcome to the magical repository of my personal blog! 🚀
 
 </div>
 
