@@ -1,7 +1,7 @@
 ---
 title: "Reverse engineering Roots of Pacha"
 date: "2025-02-01"
-categories: ["hacking", "reversing", "gaming"]
+categories: ["gaming", "hacking", "reversing"]
 ---
 # A Gamer's Journey into Kickstarter Codes
 

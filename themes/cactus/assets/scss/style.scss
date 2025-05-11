@@ -45,7 +45,7 @@ body {
   overflow-wrap: break-word;
 
   p {
-    @include hyphens(auto);
+    @include hyphens(none); // Changed from auto to none to prevent words from breaking
   }
   code {
     @include hyphens(manual);
@@ -171,7 +171,7 @@ pre {
     font-size: 0.9em;
     line-height: 1.7;
     color: #fff;
-    background-color: $color-accent-1;
+    background-color: #494D64; // Surface1 from Catppuccin Macchiato - darker blue-gray
     min-width: 60px;
     text-align: center;
     cursor: pointer;

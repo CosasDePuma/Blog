@@ -1,0 +1,14 @@
+// Catppuccin Latte theme (light)
+$color-background: #eff1f5; // Base
+$color-footer-mobile-1: darken($color-background, 2%);
+$color-footer-mobile-2: darken($color-background, 10%);
+$color-background-code: #e6e9ef; // Mantle
+$color-border: #8c8fa1; // Overlay1
+$color-meta: #6c6f85; // Subtext0
+$color-meta-code: lighten($color-meta, 10%);
+$color-link: #8839ef; // Mauve
+$color-text: #4c4f69; // Text
+$color-accent-3: #9ca0b0; // Overlay0
+$color-accent-2: #5c5f77; // Subtext1
+$color-accent-1: #1e66f5; // Blue
+$color-quote: #40a02b; // Green

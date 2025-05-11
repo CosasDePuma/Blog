@@ -36,7 +36,7 @@ weight = 3
 
 [params]
   description = "Welcome to my digital brain dump where I document my chaotic journey through the realms of hacking, devops, and whatever shiny tech catches my attention."
-  colortheme = "light" # dark, light, white, or classic
+  colortheme = "catpuccin-dark-macchiato" # dark, light, white, or classic
   rss = true
   mainSection = "posts"
   showAllPostsArchive = false

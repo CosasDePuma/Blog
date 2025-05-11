@@ -1,7 +1,7 @@
 ---
 title: "Automating package maintenance with Ansible"
 date: "2025-01-30"
-categories: ["ansible", "automation", "devops", "linux"]
+categories: ["ansible", "automation", "homelab"]
 ---
 
 # The first of many lazy automations

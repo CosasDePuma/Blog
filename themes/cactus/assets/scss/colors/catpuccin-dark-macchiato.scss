@@ -1,0 +1,14 @@
+// Catppuccin Macchiato theme (dark)
+$color-background: #24273a; // Base
+$color-footer-mobile-1: darken($color-background, 2%);
+$color-footer-mobile-2: darken($color-background, 10%);
+$color-background-code: #1e2030; // Mantle
+$color-border: #8087a2; // Overlay1
+$color-meta: #a5adcb; // Subtext0
+$color-meta-code: lighten($color-meta, 10%);
+$color-link: #c6a0f6; // Mauve
+$color-text: #cad3f5; // Text
+$color-accent-3: #6e738d; // Overlay0
+$color-accent-2: #b8c0e0; // Subtext1
+$color-accent-1: #f5bde6; // Pink
+$color-quote: #a6da95; // Green
