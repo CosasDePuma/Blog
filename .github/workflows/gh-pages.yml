@@ -8,13 +8,20 @@ on:
 
 jobs:
   deploy:
-    runs-on: "ubuntu-20.04"
+    runs-on: "ubuntu-latest"
     steps:
-      - name: "Clone the repo"
+      - name: "Checkout the source code"
         uses: "actions/checkout@v4"
         with:
           submodules: true
           fetch-depth: 0
+      
+      - name: "Checkout the destination branch"
+        uses: "actions/checkout@v4"
+        if: "github.ref == 'refs/heads/main'"
+        with:
+          ref: "gh-pages"
+          path: "dist"
 
       - name: "Setup Hugo"
         uses: "peaceiris/actions-hugo@v3"
@@ -26,9 +33,15 @@ jobs:
         run: "hugo --minify"
 
       - name: "Deploy to GitHub Pages"
-        uses: "peaceiris/actions-gh-pages@v3"
         if: "github.ref == 'refs/heads/main'"
-        with:
-          github_token: "${{ secrets.GITHUB_TOKEN }}"
-          publish_dir: "./public"
+        run: |
+          cp -RL "${GITHUB_WORKSPACE}/public/" "${GITHUB_WORKSPACE}/dist/"
+          cd "${GITHUB_WORKSPACE}/dist"
+
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "26680023+CosasDePuma@users.noreply.github.com"
+
+          git add -A
+          git commit -m "Deploy to GitHub Pages: ${GITHUB_SHA}" || echo "No changes to commit"
+          git push
 ...
